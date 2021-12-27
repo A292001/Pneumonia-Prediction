@@ -1,1 +1,3 @@
 # Pneumonia-Prediction
+In this project dataset of chest x-rays which contains 5856 images divided in two classes normal and pneumonia and splitted in three directories train, test and validation to determine whether someone is suffering from pneumonia or not is taken from Kaggle. Transfer learning approach is used to train the Deep Neural Network as dataset is small. InceptionV3 model is used (which is trained on ImageNet dataset) to train the model . Tools used for the implementation are Jupyter Notebook, Keras and Tensorflow.
+Model is trained, validated and tested and 92% accuracy with 0.29% loss is returned for test data. Precision, Recall and F1 score determined for pneumonia class are 97.02%, 91.42% and 94.14% respectively.
